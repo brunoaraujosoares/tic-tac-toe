@@ -8,7 +8,7 @@ An interactive **Tic Tac Toe** game built with **HTML**, **CSS**, and **JavaScri
 
 ## 📸 Preview  
 
-*(Optional – add a screenshot here)*  
+## Screenshot  
 ![Game Preview](assets/screenshot.png)  
 
 ## 🚀 Features  
