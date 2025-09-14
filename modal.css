@@ -1,0 +1,57 @@
+#modal__content {
+    background: radial-gradient( 
+        100% 100% at var(--g6-1-x-position) var(--g6-1-y-position),
+        #860808 -34%,
+        transparent
+    ),
+    radial-gradient(
+        100% 100% at var(--g6-2-x-position) var(--g6-2-y-position),
+        #ead709 -28%, 
+        transparent 
+    ),
+    radial-gradient(
+        100% 100% at 52% 47%, 
+        #a15305 13%,
+        transparent),
+        #3d0101;
+        animation-name: g-6;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+        transition-timing-function: ease-in;
+}
+
+@property --g6-1-x-position { 
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 89.7265625%;
+}
+@property --g6-1-y-position {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 10.468750000000004%;
+}
+@property --g6-2-x-position {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 15.546875000000004%;
+}
+@property --g6-2-y-position {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 85.234375%; 
+}
+:root {
+    --g6-1-x-position: 89.7265625%;
+    --g6-1-y-position: 10.468750000000004%;
+    --g6-2-x-position: 15.546875000000004%;
+    --g6-2-y-position: 85.234375%;
+}
+
+@keyframes g-6 {
+    50% {
+        --g6-1-x-position: 16.718750000000004%;
+        --g6-1-y-position: 83.1640625%;
+        --g6-2-x-position: 86.2890625%;
+        --g6-2-y-position: 14.882812499999998%; 
+    } 
+}
